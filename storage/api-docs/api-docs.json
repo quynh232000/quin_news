@@ -1,0 +1,105 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Quin Course",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/all_categories": {
+            "get": {
+                "tags": [
+                    "Api"
+                ],
+                "summary": "Get list of categories",
+                "operationId": "all_categories",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/all_news": {
+            "get": {
+                "tags": [
+                    "Api"
+                ],
+                "summary": "Get list of news",
+                "operationId": "all_news",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/get_news_by_cate/{slug}": {
+            "get": {
+                "tags": [
+                    "Api"
+                ],
+                "summary": "",
+                "operationId": "get_news_by_cate",
+                "parameters": [
+                    {
+                        "name": "slug",
+                        "in": "path",
+                        "description": "Category slug",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/get_news_detail/{slug}": {
+            "get": {
+                "tags": [
+                    "Api"
+                ],
+                "summary": "",
+                "operationId": "get_news_detail",
+                "parameters": [
+                    {
+                        "name": "slug",
+                        "in": "path",
+                        "description": "News slug",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Api",
+            "description": "Api"
+        }
+    ]
+}

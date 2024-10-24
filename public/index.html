@@ -1,0 +1,1185 @@
+<!--
+=========================================================
+* Argon Dashboard 2 - v2.0.4
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets//images/logo/logo-no-text.png"
+    />
+    <title>Quin News</title>
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <!-- Nucleo Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/42d5adcbca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link
+      id="pagestyle"
+      href="./assets/css/argon-dashboard.css?v=2.0.4"
+      rel="stylesheet"
+    />
+    <link id="pagestyle" href="./assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="g-sidenav-show bg-gray-100">
+    <!-- <div class="min-height-300 bg-primary position-absolute w-100"></div> -->
+    <aside
+      class="m-0 p-0 sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 fixed-start"
+      id="sidenav-main"
+    >
+      <div class="h-100 d-flex flex-column">
+        <div class="sidenav-header">
+          <i
+            class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
+            aria-hidden="true"
+            id="iconSidenav"
+          ></i>
+          <a
+            class="navbar-brand m-0 d-flex align-items-end gap-2"
+            href=" https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html "
+            target="_blank"
+          >
+            <img
+              src="./assets/images/logo/logo.png"
+              class="navbar-brand-img h-100"
+              alt="main_logo"
+            />
+            <span class="ms-1 font-weight-bold"> News</span>
+          </a>
+        </div>
+        <hr class="horizontal dark mt-0" />
+        <div class="d-flex flex-column flex-1">
+          <div
+            class="collapse navbar-collapse w-auto p-0"
+            id="sidenav-collapse-main"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="./pages/dashboard.html">
+                  <div
+                    class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center"
+                  >
+                    <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
+                  </div>
+                  <span class="nav-link-text ms-1">Trang chủ</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/tables.html">
+                  <div
+                    class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center"
+                  >
+                    <i
+                      class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"
+                    ></i>
+                  </div>
+                  <span class="nav-link-text ms-1">Tin hot</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link d-flex align-items-center"
+                  href="./pages/virtual-reality.html"
+                >
+                  <div class="px-2 pe-3">
+                    <i
+                      class="fa-solid fa-people-group text-info text-sm opacity-10"
+                    ></i>
+                  </div>
+                  <span class="nav-link-text ms-1">Diễn đàn</span>
+                </a>
+              </li>
+              <div class="border-top border-bottom">
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/billing.html">
+                    <div
+                      class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center"
+                    >
+                      <i
+                        class="ni ni-credit-card text-success text-sm opacity-10"
+                      ></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Đã lưu</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/rtl.html">
+                    <div
+                      class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center"
+                    >
+                      <i
+                        class="ni ni-world-2 text-danger text-sm opacity-10"
+                      ></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Tin của tôi</span>
+                  </a>
+                </li>
+              </div>
+              <li class="nav-item mt-3">
+                <h6
+                  class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6"
+                >
+                  Đang theo dõi
+                </h6>
+              </li>
+              <div class="ps-3 py-3 border-bottom d-flex flex-column gap-3">
+                <div class="d-flex align-items-center gap-2 px-3">
+                  <div>
+                    <img
+                      width="36"
+                      height="36"
+                      class="rounded-circle"
+                      src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="nav-link-text text-sm ms-1">Quynh Nguyen</div>
+                </div>
+                <div class="d-flex align-items-center gap-2 px-3">
+                  <div>
+                    <img
+                      width="36"
+                      height="36"
+                      class="rounded-circle"
+                      src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="nav-link-text text-sm ms-1">Quynh Nguyen</div>
+                </div>
+                <div class="d-flex align-items-center gap-2 px-3">
+                  <div>
+                    <img
+                      width="36"
+                      height="36"
+                      class="rounded-circle"
+                      src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="nav-link-text text-sm ms-1">Quynh Nguyen</div>
+                </div>
+                <div class="ps-4">
+                  <div
+                    class="text-primary fw-bold d-flex gap-2 align-items-center"
+                  >
+                    <i class="fa-solid fa-angle-down"></i>Xem thêm
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="sidenav-footer mx-3 pt-4 flex-1">
+            <a
+              href="https://www.creative-tim.com/learning-lab/bootstrap/license/argon-dashboard"
+              target="_blank"
+              class="btn btn-dark btn-sm w-100 mb-3"
+              >Đăng ký</a
+            >
+            <a
+              class="btn btn-primary btn-sm mb-0 w-100"
+              href="https://www.creative-tim.com/product/argon-dashboard-pro?ref=sidebarfree"
+              type="button"
+              >Đăng nhập</a
+            >
+            <div class="text-sm text-center pb-1 pt-4">
+              Copyright © 2024 Mr Quynh
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- right -->
+    <aside
+      class="m-0 p-0 bg-white navbar navbar-vertical navbar-expand-xs border-0"
+      id="sidenav-main2"
+      style="right: 0 !important"
+    >
+      <div class="h-100 d-flex flex-column">
+        <div class="d-flex flex-column flex-1">
+          <div
+            class="collapse navbar-collapse w-auto p-0 py-3"
+            id="sidenav-collapse-main2"
+          >
+            <h6
+              class="px-3 text-uppercase text-xs font-weight-bolder opacity-6"
+            >
+              Trending Tags
+            </h6>
+            <div class="py-2 px-3 d-flex flex-column gap-2">
+              <div class="border-bottom py-2">
+                <div class="fw-bold">#bongda</div>
+                <div class="text-xs">1.2k tin</div>
+              </div>
+              <div class="border-bottom py-2">
+                <div class="fw-bold">#bongda</div>
+                <div class="text-xs">1.2k tin</div>
+              </div>
+              <div class="border-bottom py-2">
+                <div class="fw-bold">#bongda</div>
+                <div class="text-xs">1.2k tin</div>
+              </div>
+              <div class="border-bottom py-2">
+                <div class="fw-bold">#bongda</div>
+                <div class="text-xs">1.2k tin</div>
+              </div>
+              <div class="border-bottom py-2">
+                <div class="fw-bold">#bongda</div>
+                <div class="text-xs">1.2k tin</div>
+              </div>
+              <div
+                class="d-flex align-items-center gap-2 text-primary text-sm fw-bold"
+              >
+                <i class="fa-solid fa-angle-down"></i> Xem thêm
+              </div>
+            </div>
+            <h6
+              class="px-3 text-uppercase text-xs font-weight-bolder opacity-6 mt-5"
+            >
+              Trending People
+            </h6>
+            <div class="py-2 px-3 d-flex flex-column gap-2">
+              <div class="d-flex gap-2 align-items-center border-bottom py-2">
+                <div>
+                  <img
+                    class="img-thumbnail rounded-circle"
+                    width="46"
+                    height="46"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/800px-Cat03.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="fw-bold text-sm">Mr Quynh</div>
+                  <div class="text-xs">2.3k theo dõi</div>
+                </div>
+              </div>
+              <div class="d-flex gap-2 align-items-center border-bottom py-2">
+                <div>
+                  <img
+                    class="img-thumbnail rounded-circle"
+                    width="46"
+                    height="46"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/800px-Cat03.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="fw-bold text-sm">Mr Quynh</div>
+                  <div class="text-xs">2.3k theo dõi</div>
+                </div>
+              </div>
+              <div class="d-flex gap-2 align-items-center border-bottom py-2">
+                <div>
+                  <img
+                    class="img-thumbnail rounded-circle"
+                    width="46"
+                    height="46"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/800px-Cat03.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="fw-bold text-sm">Mr Quynh</div>
+                  <div class="text-xs">2.3k theo dõi</div>
+                </div>
+              </div>
+              <div class="d-flex gap-2 align-items-center border-bottom py-2">
+                <div>
+                  <img
+                    class="img-thumbnail rounded-circle"
+                    width="46"
+                    height="46"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/800px-Cat03.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="fw-bold text-sm">Mr Quynh</div>
+                  <div class="text-xs">2.3k theo dõi</div>
+                </div>
+              </div>
+              <div
+                class="d-flex align-items-center gap-2 text-primary text-sm fw-bold"
+              >
+                <i class="fa-solid fa-angle-down"></i> Xem thêm
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main
+      class="position-relative w-100 m-auto p-4"
+      style="max-width: calc(100% - 520px)"
+    >
+      <div class="rounded-3 position-relative overflow-hidden">
+        <img
+          class="w-100 rounded-3 object-fit-cover"
+          height="180"
+          src="https://www.shutterstock.com/shutterstock/videos/1080331217/thumb/1.jpg"
+          alt=""
+        />
+
+        <div
+          class="position-absolute top-0 start-0 bottom-0 end-0 bg-grandient"
+          style="z-index: 1"
+        ></div>
+        <div
+          style="z-index: 2"
+          class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0"
+        >
+          <div class="w-100">
+            <div
+              class="w-80 m-auto d-flex align-items-center bg-white py-1 ps-4 pe-2"
+              style="border-radius: 20px"
+            >
+              <input
+                type="text"
+                class="flex-1 py-1"
+                style="border: none; outline: none"
+                placeholder="Tìm kiếm"
+              />
+              <div
+                class="bg-primary rounded-circle d-flex justify-content-center align-items-center text-white p-2"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div class="w-80 m-auto mt-4 d-flex justify-content-center gap-3">
+              <span class="text-white">#thethao</span>
+              <span class="text-white">#thethao</span>
+              <span class="text-white">#thethao</span>
+              <span class="text-white">#thethao</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="border-bottom mt-4 d-flex">
+          <div
+            class="text-center flex-1 py-2 text-primary fw-bold border-bottom border-2 border-primary"
+          >
+            Dành cho bạn
+          </div>
+          <div class="text-center flex-1 py-2 fw-bold">Đang theo dõi</div>
+          <div class="text-center flex-1 py-2 fw-bold">Diễn đàn</div>
+        </div>
+
+        <div class="my-4 d-flex gap-3" style="flex-wrap: wrap">
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1 bg-primary text-white"
+          >
+            <span>Tất cả</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Thể thao</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Thời trang</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Xe cộ</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Bất động sản</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Thể thao</span>
+          </div>
+          <div
+            class="border px-2 py-1 rounded-lg shadow d-flex align-items-center gap-1"
+          >
+            <i class="fa-regular fa-futbol"></i><span>Thể thao</span>
+          </div>
+        </div>
+
+        <div class="mb-5 pb-5">
+          <div class="fw-bold fs-4">Tin nổi bật</div>
+          <div class="row my-2">
+            <div class="col-md-5">
+              <div>
+                <img
+                  class="w-100 rounded-3"
+                  src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <div
+                  class="d-flex align-items-center justify-content-between py-2"
+                >
+                  <div class="d-flex gap-2 align-items-center">
+                    <img
+                      width="24"
+                      height="24"
+                      class="rounded-circle"
+                      src="https://yt3.googleusercontent.com/dSgCrECA1r7miuDGqO4vLqPwugiVEQMZSvFzekB0_zl_nKGwf0kPLbt0IQzk4O1F7PvqO81nXg=s900-c-k-c0x00ffffff-no-rj"
+                      alt=""
+                    />
+                    <div class="fw-bold">Mr Quynh</div>
+                  </div>
+                  <div class="text-sm">2h trước</div>
+                </div>
+                <h2 class="fw-bold fs-5">
+                  Tiếp tế, sơ tán dân khỏi vùng ngập 2 mét sơ tán dân khỏi vùng
+                  ngập 2 mét
+                </h2>
+                <p>
+                  "Cầu sập", anh Phan Trường Sơn, 40 tuổi, hét trong vô vọng khi
+                  rơi xuống sông Hồng. Anh là một trong ba người thoát nạn đang
+                  cấp cứu sau vụ sập cầu Phong Châu lúc 10h ngày 9/9.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="border-bottom">
+                <div class="row d-flex align-items-center">
+                  <div class="col-4 d-flex">
+                    <img
+                      class="w-100 rounded-3"
+                      src="https://i1-vnexpress.vnecdn.net/2024/09/09/img-6724-1725893780.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=7m7enOrVFXD1tC1nN9aUWw"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="fs-5 col-8">
+                    Nạn nhân thoát chết: 'Cầu sập trong tích tắc' Nạn nhân thoát
+                    chết: 'Cầu sập trong tích tắc' Nạn nhân thoát chết: 'Cầu sập
+                    trong tích tắc'
+                  </h4>
+                </div>
+                <div class="d-flex justify-content-between my-2">
+                  <div class="d-flex gap-1">
+                    <img
+                      src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                      class="rounded-circle"
+                      width="24"
+                      height="24"
+                      alt=""
+                    />
+                    <div>Mr Quynh</div>
+                  </div>
+                  <div class="text-sm">3h trước</div>
+                </div>
+              </div>
+              <div class="border-bottom mt-3">
+                <div class="row d-flex align-items-center">
+                  <div class="col-4 d-flex">
+                    <img
+                      class="w-100 rounded-3"
+                      src="https://i1-vnexpress.vnecdn.net/2024/09/09/img-6724-1725893780.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=7m7enOrVFXD1tC1nN9aUWw"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="fs-5 col-8">
+                    Nạn nhân thoát chết: 'Cầu sập trong tích tắc' Nạn nhân thoát
+                    chết: 'Cầu sập trong tích tắc' Nạn nhân thoát chết: 'Cầu sập
+                    trong tích tắc'
+                  </h4>
+                </div>
+                <div class="d-flex justify-content-between my-2">
+                  <div class="d-flex gap-1">
+                    <img
+                      src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                      class="rounded-circle"
+                      width="24"
+                      height="24"
+                      alt=""
+                    />
+                    <div>Mr Quynh</div>
+                  </div>
+                  <div class="text-sm">3h trước</div>
+                </div>
+              </div>
+              <div class="mt-3">
+                <div class="row d-flex align-items-center">
+                  <div class="col-4 d-flex">
+                    <img
+                      class="w-100 rounded-3"
+                      src="https://i1-vnexpress.vnecdn.net/2024/09/09/img-6724-1725893780.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=7m7enOrVFXD1tC1nN9aUWw"
+                      alt=""
+                    />
+                  </div>
+                  <h4 class="fs-5 col-8">
+                    Nạn nhân thoát chết: 'Cầu sập trong tích tắc' Nạn nhân thoát
+                    chết: 'Cầu sập trong tích tắc' Nạn nhân thoát chết: 'Cầu sập
+                    trong tích tắc'
+                  </h4>
+                </div>
+                <div class="d-flex justify-content-between my-2">
+                  <div class="d-flex gap-1">
+                    <img
+                      src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                      class="rounded-circle"
+                      width="24"
+                      height="24"
+                      alt=""
+                    />
+                    <div>Mr Quynh</div>
+                  </div>
+                  <div class="text-sm">3h trước</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="fw-bold fs-4 pt-5 d-flex justify-content-between align-items-center"
+          >
+            <div>Tin mới</div>
+            <div class="text-sm text-primary">Xem thêm</div>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <div class="border-bottom py-3">
+              <div class="row d-flex">
+                <div class="col-4 d-flex">
+                  <img
+                    class="w-100 rounded-3"
+                    src="https://i1-vnexpress.vnecdn.net/2024/09/09/img-6724-1725893780.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=7m7enOrVFXD1tC1nN9aUWw"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column col-8">
+                  <h4 class="fs-5">
+                    Nạn nhân thoát chết: 'Cầu sập trong tích tắc' Nạn nhân thoát
+                    chết: 'Cầu sập trong tích tắc' Nạn nhân thoát chết: 'Cầu sập
+                    trong tích tắc'
+                  </h4>
+                  <p>
+                    Vừa tách rời khỏi xe máy, anh thấy một cây chuối trôi rất
+                    nhanh song song phía trước nhưng rồi bị sóng đánh ra xa. Thả
+                    lỏng người lấy cân bằng, anh thấy một cây chuối khác vọt
+                    qua. Đầu lúc này khá đau, hơi rỉ máu vì va đập, song nghĩ
+                    đây là cơ hội sống, anh lấy hết sức bình sinh lao theo cây
+                    chuối.
+                  </p>
+                  <div class="d-flex justify-content-between my-2">
+                    <div class="d-flex gap-1">
+                      <img
+                        src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                        class="rounded-circle"
+                        width="24"
+                        height="24"
+                        alt=""
+                      />
+                      <div>Mr Quynh</div>
+                    </div>
+                    <div class="text-sm">3h trước</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="border-bottom py-3">
+              <div class="row d-flex">
+                <div class="col-4 d-flex">
+                  <img
+                    class="w-100 rounded-3"
+                    src="https://i1-vnexpress.vnecdn.net/2024/09/09/img-6724-1725893780.jpg?w=680&h=408&q=100&dpr=1&fit=crop&s=7m7enOrVFXD1tC1nN9aUWw"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column col-8">
+                  <h4 class="fs-5">
+                    Nạn nhân thoát chết: 'Cầu sập trong tích tắc' Nạn nhân thoát
+                    chết: 'Cầu sập trong tích tắc' Nạn nhân thoát chết: 'Cầu sập
+                    trong tích tắc'
+                  </h4>
+                  <p>
+                    Vừa tách rời khỏi xe máy, anh thấy một cây chuối trôi rất
+                    nhanh song song phía trước nhưng rồi bị sóng đánh ra xa. Thả
+                    lỏng người lấy cân bằng, anh thấy một cây chuối khác vọt
+                    qua. Đầu lúc này khá đau, hơi rỉ máu vì va đập, song nghĩ
+                    đây là cơ hội sống, anh lấy hết sức bình sinh lao theo cây
+                    chuối.
+                  </p>
+                  <div class="d-flex justify-content-between my-2">
+                    <div class="d-flex gap-1">
+                      <img
+                        src="https://baogiaothong.mediacdn.vn/zoom/600_315/upload/images/2019-4/profile_avatar_img/2019-11-18/tin-tuc-trong-ngay-hom-nay-1574061980-width1004height565.png"
+                        class="rounded-circle"
+                        width="24"
+                        height="24"
+                        alt=""
+                      />
+                      <div>Mr Quynh</div>
+                    </div>
+                    <div class="text-sm">3h trước</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <div
+              class="fw-bold fs-4 pt-5 d-flex justify-content-between align-items-center"
+            >
+              <div>Tin xem nhiều</div>
+              <div class="text-sm text-primary">Xem thêm</div>
+            </div>
+            <div class="row py-3">
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 position-relative item-news">
+                <div class="w-100 object-fit-cover" style="height: 230px">
+                  <img
+                    class="w-100 object-fit-cover rounded-3"
+                    src="https://hips.hearstapps.com/countryliving.cdnds.net/18/06/640x479/gallery-1517911847-golden-retriever.jpg?resize=640:*"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-80 rounded-3 item-label-news"
+                  style="top: 80%; border-top-left-radius: 0 !important"
+                >
+                  <div
+                    class="fw-bold px-3 py-1 text-sm my-4 mb-2"
+                    style="
+                      background-color: rgb(255, 232, 232);
+                      width: fit-content;
+                    "
+                  >
+                    Thể thao
+                  </div>
+                  <div class="fw-bold text-title mb-2 px-2" style="height: 40">
+                    Welcome To The Best Model Winner Contest
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div
+              class="fw-bold fs-4 d-flex justify-content-between align-items-center"
+            >
+              <div>Tin tức về thời sự</div>
+              <div class="text-sm text-primary">Xem thêm</div>
+            </div>
+
+            <div class="py-3">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                 
+
+                  <div class="carousel-item active ">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card" >
+                          <div class=" w-100" style="height: 194px;">
+                            <img  src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/5027/image/s768x1300/3_reduced.jpg" class="card-img-top w-100 object-fit-cover h-100" alt="...">
+                          </div>
+                          
+                          <div class="card-body my-0 px-3 pt-0">
+                            <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+                                <div>Thể thao</div>
+                                <span class="text-sm">3h trước</span>
+                            </div>
+                            <h5 class="card-title card-name">Trải nghiệm các nâng cấp trên iPhone 16 Pro Max</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card" >
+                          <div class=" w-100" style="height: 194px;">
+                            <img  src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/5027/image/s768x1300/3_reduced.jpg" class="card-img-top w-100 object-fit-cover h-100" alt="...">
+                          </div>
+                          
+                          <div class="card-body my-0 px-3 pt-0">
+                            <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+                                <div>Thể thao</div>
+                                <span class="text-sm">3h trước</span>
+                            </div>
+                            <h5 class="card-title card-name">Trải nghiệm các nâng cấp trên iPhone 16 Pro Max</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card" >
+                          <div class=" w-100" style="height: 194px;">
+                            <img  src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/5027/image/s768x1300/3_reduced.jpg" class="card-img-top w-100 object-fit-cover h-100" alt="...">
+                          </div>
+                          
+                          <div class="card-body my-0 px-3 pt-0">
+                            <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+                                <div>Thể thao</div>
+                                <span class="text-sm">3h trước</span>
+                            </div>
+                            <h5 class="card-title card-name">Trải nghiệm các nâng cấp trên iPhone 16 Pro Max</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
+                          </div>
+                        </div>
+                      </div>
+
+                     
+
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon  rounded-circle " style="background-color: rgb(158, 205, 246);" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon  rounded-circle" style="background-color: rgb(158, 205, 246);" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="fixed-plugin">
+      <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
+        <i class="fa fa-cog py-2"> </i>
+      </a>
+      <div class="card shadow-lg">
+        <div class="card-header pb-0 pt-3">
+          <div class="float-start">
+            <h5 class="mt-3 mb-0">Argon Configurator</h5>
+            <p>See our dashboard options.</p>
+          </div>
+          <div class="float-end mt-4">
+            <button
+              class="btn btn-link text-dark p-0 fixed-plugin-close-button"
+            >
+              <i class="fa fa-close"></i>
+            </button>
+          </div>
+          <!-- End Toggle Button -->
+        </div>
+        <hr class="horizontal dark my-1" />
+        <div class="card-body pt-sm-3 pt-0 overflow-auto">
+          <!-- Sidebar Backgrounds -->
+          <div>
+            <h6 class="mb-0">Sidebar Colors</h6>
+          </div>
+          <a href="javascript:void(0)" class="switch-trigger background-color">
+            <div class="badge-colors my-2 text-start">
+              <span
+                class="badge filter bg-gradient-primary active"
+                data-color="primary"
+                onclick="sidebarColor(this)"
+              ></span>
+              <span
+                class="badge filter bg-gradient-dark"
+                data-color="dark"
+                onclick="sidebarColor(this)"
+              ></span>
+              <span
+                class="badge filter bg-gradient-info"
+                data-color="info"
+                onclick="sidebarColor(this)"
+              ></span>
+              <span
+                class="badge filter bg-gradient-success"
+                data-color="success"
+                onclick="sidebarColor(this)"
+              ></span>
+              <span
+                class="badge filter bg-gradient-warning"
+                data-color="warning"
+                onclick="sidebarColor(this)"
+              ></span>
+              <span
+                class="badge filter bg-gradient-danger"
+                data-color="danger"
+                onclick="sidebarColor(this)"
+              ></span>
+            </div>
+          </a>
+          <!-- Sidenav Type -->
+          <div class="mt-3">
+            <h6 class="mb-0">Sidenav Type</h6>
+            <p class="text-sm">Choose between 2 different sidenav types.</p>
+          </div>
+          <div class="d-flex">
+            <button
+              class="btn bg-gradient-primary w-100 px-3 mb-2 active me-2"
+              data-class="bg-white"
+              onclick="sidebarType(this)"
+            >
+              White
+            </button>
+            <button
+              class="btn bg-gradient-primary w-100 px-3 mb-2"
+              data-class="bg-default"
+              onclick="sidebarType(this)"
+            >
+              Dark
+            </button>
+          </div>
+          <p class="text-sm d-xl-none d-block mt-2">
+            You can change the sidenav type just on desktop view.
+          </p>
+          <!-- Navbar Fixed -->
+          <div class="d-flex my-3">
+            <h6 class="mb-0">Navbar Fixed</h6>
+            <div class="form-check form-switch ps-0 ms-auto my-auto">
+              <input
+                class="form-check-input mt-1 ms-auto"
+                type="checkbox"
+                id="navbarFixed"
+                onclick="navbarFixed(this)"
+              />
+            </div>
+          </div>
+          <hr class="horizontal dark my-sm-4" />
+          <div class="mt-2 mb-5 d-flex">
+            <h6 class="mb-0">Light / Dark</h6>
+            <div class="form-check form-switch ps-0 ms-auto my-auto">
+              <input
+                class="form-check-input mt-1 ms-auto"
+                type="checkbox"
+                id="dark-version"
+                onclick="darkMode(this)"
+              />
+            </div>
+          </div>
+          <a
+            class="btn bg-gradient-dark w-100"
+            href="https://www.creative-tim.com/product/argon-dashboard"
+            >Free Download</a
+          >
+          <a
+            class="btn btn-outline-dark w-100"
+            href="https://www.creative-tim.com/learning-lab/bootstrap/license/argon-dashboard"
+            >View documentation</a
+          >
+          <div class="w-100 text-center">
+            <a
+              class="github-button"
+              href="https://github.com/creativetimofficial/argon-dashboard"
+              data-icon="octicon-star"
+              data-size="large"
+              data-show-count="true"
+              aria-label="Star creativetimofficial/argon-dashboard on GitHub"
+              >Star</a
+            >
+            <h6 class="mt-3">Thank you for sharing!</h6>
+            <a
+              href="https://twitter.com/intent/tweet?text=Check%20Argon%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fargon-dashboard"
+              class="btn btn-dark mb-0 me-2"
+              target="_blank"
+            >
+              <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
+            </a>
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/argon-dashboard"
+              class="btn btn-dark mb-0 me-2"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-square me-1" aria-hidden="true"></i>
+              Share
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/popper.min.js"></script>
+    <script src="./assets/js/core/bootstrap.min.js"></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="./assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="./assets/js/plugins/chartjs.min.js"></script>
+    <script>
+      var ctx1 = document.getElementById("chart-line").getContext("2d");
+
+      var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
+
+      gradientStroke1.addColorStop(1, "rgba(94, 114, 228, 0.2)");
+      gradientStroke1.addColorStop(0.2, "rgba(94, 114, 228, 0.0)");
+      gradientStroke1.addColorStop(0, "rgba(94, 114, 228, 0)");
+      new Chart(ctx1, {
+        type: "line",
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              label: "Mobile apps",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 0,
+              borderColor: "#5e72e4",
+              backgroundColor: gradientStroke1,
+              borderWidth: 3,
+              fill: true,
+              data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+              maxBarThickness: 6,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#fbfbfb",
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                color: "#ccc",
+                padding: 20,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+          },
+        },
+      });
+    </script>
+    <script>
+      var win = navigator.platform.indexOf("Win") > -1;
+      if (win && document.querySelector("#sidenav-scrollbar")) {
+        var options = {
+          damping: "0.5",
+        };
+        Scrollbar.init(document.querySelector("#sidenav-scrollbar"), options);
+      }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/argon-dashboard.min.js?v=2.0.4"></script>
+  </body>
+</html>
